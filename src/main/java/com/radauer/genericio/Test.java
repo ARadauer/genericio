@@ -1,16 +1,12 @@
 package com.radauer.genericio;
 
-import java.io.IOException;
 import java.util.List;
-
-import org.apache.commons.lang3.RandomStringUtils;
 
 public class Test
 {
 
     public static void main(String[] args) throws Exception
     {
-
 
         test(1 * 1000 * 1000, "models.txt", Model.class);
 

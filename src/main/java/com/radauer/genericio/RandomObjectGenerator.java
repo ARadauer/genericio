@@ -1,16 +1,13 @@
 package com.radauer.genericio;
 
 import java.lang.reflect.Field;
-import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
 import org.apache.commons.lang3.RandomStringUtils;
 
 public class RandomObjectGenerator
 {
-
 
     public <T> List<T> generateRandomObjects(int count, Class<T> clazz)
         throws InstantiationException, IllegalAccessException

@@ -1,15 +1,12 @@
 package com.radauer.genericio;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-@Data
 @Getter
 @Setter
 public class Model
 {
-
     @OrderedField(order = 1)
     private String v1;
     @OrderedField(order = 2)
