@@ -82,7 +82,7 @@ public class GenericReaderWriter
         String[] parts = line.split(SEP);
         for (int i = 0; i < Math.min(parts.length, fields.size()); i++)
         {
-            fields.get(0).set(obj, parts[i]);
+            fields.get(i).set(obj, parts[i]);
         }
         return obj;
     }
